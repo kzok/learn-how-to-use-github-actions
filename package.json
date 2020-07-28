@@ -1,4 +1,15 @@
 {
+  "name": "@kzok/example",
+  "version": "0.0.1",
+  "description": "This is example package to learn how to use GitHub Actions",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kzok/learn-how-to-use-github-actions.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "type-check": "tsc --noEmit",
     "test": "jest"
