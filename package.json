@@ -12,7 +12,8 @@
   },
   "scripts": {
     "type-check": "tsc --noEmit",
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/jest": "^26.0.7",

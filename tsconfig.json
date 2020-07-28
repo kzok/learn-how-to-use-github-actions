@@ -12,5 +12,8 @@
     "forceConsistentCasingInFileNames": true,
     "rootDir": "./src",
     "outDir": "./lib"
-  }
+  },
+  "exclude": [
+    "*/__tests__/*"
+  ]
 }
