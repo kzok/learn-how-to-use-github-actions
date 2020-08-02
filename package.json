@@ -2,6 +2,9 @@
   "name": "@kzok/example",
   "version": "0.0.1",
   "description": "This is example package to learn how to use GitHub Actions",
+  "author": {
+    "name": "kzok"
+  },
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
@@ -10,6 +13,12 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "README.md",
+    "LICENSE",
+    "package.json",
+    "lib"
+  ],
   "scripts": {
     "type-check": "tsc --noEmit",
     "test": "jest",
